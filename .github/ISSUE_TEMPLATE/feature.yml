@@ -25,20 +25,29 @@ body:
      placeholder: Why?
    validations:
      required: true
-- type: textarea
-   id: design
-   attributes:
-     label: Any technical challenge?
-     description: Solution design and decision made.
-     placeholder: Your design here.
-   validations:
-     required: true     
-- type: textarea
-   id: tasks
-   attributes:
-     label: The tasks required to implement the feature?
-     description: Feature break down into steps.
-     value: |
-       - [ ] Task List
-   validations:
-     required: true
+ - type: textarea
+    id: design
+    attributes:
+      label: Any technical challenge?
+      description: Solution design and decision made.
+      placeholder: Your design here.
+    validations:
+      required: true     
+ - type: textarea
+    id: tasks
+    attributes:
+      label: The tasks required to implement the feature?
+      description: Feature break down into steps.
+      value: |
+        - [ ] Task List
+    validations:
+      required: true
+ - type: dropdown
+    id: priority
+    attributes:
+      label: How did you download the software?
+      options:
+        - High
+        - Normal
+    validations:
+      required: true
