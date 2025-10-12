@@ -45,9 +45,9 @@ body:
  - type: dropdown
    id: priority
    attributes:
-     label: How did you download the software?
+     label: What is value of this?
      options:
-       - High
-       - Normal
+       - High (Core feature)
+       - Normal (Nice to have)
    validations:
      required: true
