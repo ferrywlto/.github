@@ -24,3 +24,14 @@ body:
      description: What should be the expected behavior?
    validations:
      required: true
+ - type: dropdown
+    id: severity
+    attributes:
+      label: How severe of this bug?
+      options:
+        - P0 (Critical, system wide failure/security)
+        - P1 (Severe, some users not able to use)
+        - P2 (Serious, some features are not available)
+        - P3 (Normal, gitches that can tolerate) 
+    validations:
+      required: true
