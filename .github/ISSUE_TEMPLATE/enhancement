@@ -1,0 +1,27 @@
+name: Something to Improve
+description: Describe what need to be improved.
+title: "[Enhance]: "
+labels: ["enhancement"]
+assignees:
+ - ferrywlto
+body:
+ - type: markdown
+   attributes:
+     value: |
+       It is always a good habit to write it down why do we need to do something!
+ - type: textarea
+   id: what
+   attributes:
+     label: What is not good enough?
+     description: You feel something ugly? Slow?
+     placeholder: The problem you observed.
+   validations:
+     required: true
+ - type: textarea
+   id: how
+   attributes:
+     label: How to improve this?
+     description: The solution / workaround to improve the aspect.
+     placeholder: How?
+   validations:
+     required: true
