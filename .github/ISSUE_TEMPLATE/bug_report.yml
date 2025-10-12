@@ -24,6 +24,14 @@ body:
      description: What should be the expected behavior?
    validations:
      required: true
+ - type: textarea
+   id: cause
+   attributes:
+     label: Root Cause Analysis
+     description: Why is this happening?
+     placeholder: Good for retrospection.
+   validations:
+     required: true     
  - type: dropdown
    id: severity
    attributes:
