@@ -1,0 +1,27 @@
+name: New Task
+description: Describe a task that need to do
+title: "[Task]: "
+labels: ["task"]
+assignees:
+ - ferrywlto
+body:
+ - type: markdown
+   attributes:
+     value: |
+       It is always a good habit to write it down why do we need to do something!
+ - type: textarea
+   id: todo
+   attributes:
+     label: What do we need to do?
+     description: Also tell us, what did you expect to happen?
+     placeholder: The task description.
+   validations:
+     required: true
+ - type: textarea
+   id: why
+   attributes:
+     label: Why do we need to do this?
+     description: The reason behind this task.
+     placeholder: Why?
+   validations:
+     required: true
