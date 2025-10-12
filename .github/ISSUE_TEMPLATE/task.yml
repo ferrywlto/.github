@@ -25,3 +25,12 @@ body:
      placeholder: Why?
    validations:
      required: true
+ - type: dropdown
+   id: priority
+   attributes:
+     label: What is priority of this?
+     options:
+       - High (Urgent and important)
+       - Normal (Urgent or important)
+   validations:
+     required: true
