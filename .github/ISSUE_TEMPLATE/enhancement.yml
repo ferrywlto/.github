@@ -25,50 +25,6 @@ body:
      placeholder: How?
    validations:
      required: true
-name: New Feature
-description: Describe a new product feature.
-title: "[Feature]: "
-labels: ["feature"]
-assignees:
- - ferrywlto
-body:
- - type: markdown
-   attributes:
-     value: |
-       It is always a good habit to write it down why do we need to do something!
- - type: textarea
-   id: requirement
-   attributes:
-     label: What do we need to do?
-     description: Also tell us, what did you expect to happen?
-     placeholder: The task description.
-   validations:
-     required: true
- - type: textarea
-   id: values
-   attributes:
-     label: What are the values of implementing this?
-     description: Effort should be spent only on something that have values.
-     placeholder: Why?
-   validations:
-     required: true
- - type: textarea
-   id: design
-   attributes:
-     label: Any technical challenge?
-     description: Solution design and decision made.
-     placeholder: Your design here.
-   validations:
-     required: true     
- - type: textarea
-   id: tasks
-   attributes:
-     label: The tasks required to implement the feature?
-     description: Feature break down into steps.
-     value: |
-       - [ ] Task List
-   validations:
-     required: true
  - type: dropdown
    id: priority
    attributes:
